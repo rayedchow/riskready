@@ -1,0 +1,154 @@
+[
+  {
+    "id": "Age",
+    "q": "What is your age?"
+  },
+  {
+    "id": "Gender",
+    "q": "What is your gender?",
+    "options": [
+      {"label": "Male", "value": 0},
+      {"label": "Female", "value": 1},
+      {"label": "Other", "value": 0.5},
+      {"label": "Rather not say", "value": 0.5}
+    ]
+  },
+  {
+    "id": "Race/Ethnicity",
+    "q": "What is your race/ethnicity?",
+    "options": [
+      {"label": "Caucasian", "value": 0},
+      {"label": "African American", "value": 1},
+      {"label": "Asian", "value": 2},
+      {"label": "White", "value": 3},
+      {"label": "Hispanic", "value": 4},
+      {"label": "U.S Nonresident", "value": 5},
+      {"label": "Rather not say", "value": 6}
+    ]
+  },
+  {
+    "id": "Family History of Substance Abuse",
+    "q": "Do you have any past family history with any sort of substance abuse?",
+    "options": [
+      {"label": "Yes", "value": 1},
+      {"label": "No", "value": 0}
+    ]
+  },
+  {
+    "id": "Personal History of Substance Abuse",
+    "q": "Do you have any past personal history with any sort of substance abuse?",
+    "options": [
+      {"label": "Yes", "value": 1},
+      {"label": "No", "value": 0}
+    ]
+  },
+  {
+    "id": "History of Mental Health Conditions",
+    "q": "Do you have any history with any mental health conditions?",
+    "options": [
+      {"label": "Yes", "value": 1},
+      {"label": "No", "value": 0}
+    ]
+  },
+  {
+    "id": "Chronic Pain Conditions",
+    "q": "Do you have any history with chronic pain conditions?",
+    "options": [
+      {"label": "Yes", "value": 1},
+      {"label": "No", "value": 0}
+    ]
+  },
+  {
+    "id": "Prescribed Medications",
+    "q": "What medication are you prescribed with?",
+    "options": [
+      {"label": "Oxycodone", "value": 0},
+      {"label": "Hydrocodone", "value": 1},
+      {"label": "Fentanyl", "value": 2},
+      {"label": "Tramadol", "value": 3},
+      {"label": "Morphine", "value": 4},
+      {"label": "Kadian", "value": 5},
+      {"label": "Methadone", "value": 6},
+      {"label": "Opana", "value": 7},
+      {"label": "Demerol", "value": 8},
+      {"label": "Codeine", "value": 9},
+      {"label": "Vicodin", "value": 10},
+      {"label": "Other", "value": 5.5}
+    ]
+  },
+  {
+    "id": "Dosage and Frequency of Opioid Medication Use",
+    "q": "What is the dosage and frequency of your prescribed opioid medication?",
+    "options": [
+      {"label": "25mcg, 2 times per day", "value": 50},
+      {"label": "25mcg/hour patch, changed every 72 hours", "value": 600},
+      {"label": "5mg, 2 times per day", "value": 10000},
+      {"label": "5mg, 3 times per day", "value": 15000},
+      {"label": "10mg, 2 times per day", "value": 20000},
+      {"label": "10mg, 3 times per day", "value": 30000},
+      {"label": "20mg, 2 times per day", "value": 40000},
+      {"label": "15mg, 4 times per day", "value": 60000},
+      {"label": "30mg, 3 times per day", "value": 90000},
+      {"label": "25mg, 4 times per day", "value": 100000},
+      {"label": "50mg, 4 times per day", "value": 200000}
+    ]
+  },
+  {
+    "id": "Duration of Opioid Medication Use",
+    "q": "What is the duration of your prescribed opioid medication?",
+    "options": [
+      {"label": "1 month", "value": 30},
+      {"label": "2 months", "value": 60},
+      {"label": "3 months", "value": 90},
+      {"label": "4 months", "value": 120},
+      {"label": "5 months", "value": 150},
+      {"label": "6 months", "value": 180},
+      {"label": "7 months", "value": 210},
+      {"label": "8 months", "value": 240},
+      {"label": "9 months", "value": 270},
+      {"label": "1 year", "value": 360},
+      {"label": "2 years", "value": 720},
+      {"label": "3 years", "value": 1080},
+      {"label": "4 years", "value": 1440},
+      {"label": "5 years", "value": 1800},
+      {"label": "6 years", "value": 2160},
+      {"label": "8 years", "value": 2880}
+    ]
+  },
+  {
+    "id": "History of Overdose or Hospitalization Due to Opioid Use",
+    "q": "Do you have any history of overdose or hospitalization due to opioid use?",
+    "options": [
+      {"label": "Yes", "value": 1},
+      {"label": "No", "value": 0}
+    ]
+  },
+  {
+    "id": "Social Support Network",
+    "q": "How would you describe your social support network, and social surroundings?",
+    "options": [
+      {"label": "Limited support system", "value": 0},
+      {"label": "Moderate support system", "value": 1},
+      {"label": "Strong support system", "value": 2}
+    ]
+  },
+  {
+    "id": "Employment Status",
+    "q": "What is your employment status?",
+    "options": [
+      {"label": "Unemployed", "value": 0},
+      {"label": "Employed", "value": 1},
+      {"label": "Retired", "value": 2}
+    ]
+  },
+  {
+    "id": "Education Level",
+    "q": "What is your education level?",
+    "options": [
+      {"label": "High school diploma", "value": 0},
+      {"label": "Some college", "value": 1},
+      {"label": "College degree", "value": 2},
+      {"label": "Graduate degree", "value": 3}
+    ]
+  }
+  ]

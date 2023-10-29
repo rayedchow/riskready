@@ -1,0 +1,54 @@
+[
+	{
+		"title": "Low Risk",
+		"color": "#CA8A04",
+		"Meaning": [
+			"You are at a low risk of experiencing opioid substance abuse."
+		],
+		"Prevention": [
+			"To prevent opioid substance abuse, use these resources and take these steps:"
+		],
+		"Resources": [
+			"Links here"
+		]
+	},
+	{
+		"title": "Moderate Risk",
+		"color": "#fab1a0",
+		"Meaning": [
+			"You are at a moderate risk of experiencing opioid substance abuse."
+		],
+		"Prevention": [
+			"To prevent opioid substance abuse, use these resources and take these steps:"
+		],
+		"Resources": [
+			"Links here"
+		]
+	},
+	{
+		"title": "High Risk",
+		"color": "#e74c3c",
+		"Meaning": [
+			"You are at a high risk of experiencing opioid substance abuse."
+		],
+		"Prevention": [
+			"To prevent opioid substance abuse, use these resources and take these steps:"
+		],
+		"Resources": [
+			"Links here"
+		]
+	},
+	{
+		"title": "Very High Risk",
+		"color": "#c0392b",
+		"Meaning": [
+			"You are at a very high risk of experiencing opioid substance abuse."
+		],
+		"Prevention": [
+			"To prevent opioid substance abuse, use these resources and take these steps:"
+		],
+		"Resources": [
+			"Links here"
+		]
+	}
+]
