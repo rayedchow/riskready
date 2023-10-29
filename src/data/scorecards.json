@@ -22,41 +22,71 @@
 	},
 	{
 		"title": "Moderate Risk",
-		"color": "#fab1a0",
+		"color": "#E67E22",
 		"Meaning": [
-			"You are at a moderate risk of experiencing opioid substance abuse."
+			"You are at a moderate risk of experiencing opioid substance abuse.",
+			"Based on hundreds of reports of various opioid substance abuse cases, you have a potential risk in comparison.",
+			"You should be familiar with Naloxone resources and centers in case of an overdose"
 		],
 		"Prevention": [
-			"To prevent opioid substance abuse, use these resources and take these steps:"
+			"To prevent opioid substance abuse, use these resources and take these steps:",
+			"- Consistently take Fentanyl Test Strips to make sure the substance consumption is not at overdose",
+			"- Read Opioid Overdose Training and Witness Steps",
+			"- Be familiar with Naloxone centers near you to help those in need",
+			"- Manage chronic pain and mental health"
 		],
 		"Resources": [
-			"Links here"
+			{"name": "CDC Opioid Abuse Help & Resources", "link": "https://www.cdc.gov/opioids/overdoseprevention/help-resources.html"},
+			{"name": "Local Health Centers for substance abuse services", "link": "https://bphc.hrsa.gov/"},
+			{"name": "Managing Chronic Pain", "link": "https://store.samhsa.gov/product/TIP-54-Managing-Chronic-Pain-in-Adults-With-or-in-Recovery-From-Substance-Use-Disorders/SMA13-4671"},
+			{"name": "Mental Health/Addiction Help", "link": "https://www.hhs.gov/programs/health-insurance/mental-health-substance-use-insurance-help/index.html"}
 		]
 	},
 	{
 		"title": "High Risk",
-		"color": "#e74c3c",
+		"color": "#E74C3C",
 		"Meaning": [
-			"You are at a high risk of experiencing opioid substance abuse."
+			"You are at a high risk of experiencing opioid substance abuse.",
+			"Based on hundreds of reports of various opioid substance abuse cases, you have a high potential risk in comparison.",
+			"You should be familiar with Naloxone resources and centers in case of an overdose",
+			"It is recommended to visit a rehabilitation center early to make sure you are safe."
 		],
 		"Prevention": [
-			"To prevent opioid substance abuse, use these resources and take these steps:"
+			"To prevent opioid substance abuse, use these resources and take these steps:",
+			"- Be familiar with Naloxone centers near you to help those in need",
+			"- Manage chronic pain and mental health",
+			"- Visiting a local rehabilitation center or local Naloxone center",
+			"- Calling a Substance Abuse Prevention Regional Coalition Agency"
 		],
 		"Resources": [
-			"Links here"
+			{"name": "NJ Substance Abuse Prevention Regional Coalition Agency", "link": "https://www.nj.gov/humanservices/dmhas/resources/services/prevention/Regional_Coalition_Contacts.pdf"},
+			{"name": "Substance Abuse/Addiction Treatment in NJ", "link": "https://northjerseyrecovery.com/ppc/drug-addiction-treatment"},
+			{"name": "Harm Reduction Resources Near You", "link": "https://harmreduction.org/resource-center/harm-reduction-near-you/"},
+			{"name": "SAMHSA National Opioid Abuse Helpline", "link": "https://www.samhsa.gov/find-help/national-helpline"}
 		]
 	},
 	{
 		"title": "Very High Risk",
-		"color": "#c0392b",
+		"color": "#C0392B",
 		"Meaning": [
-			"You are at a very high risk of experiencing opioid substance abuse."
+			"You are at a very high risk of experiencing opioid substance abuse.",
+			"Based on hundreds of reports of various opioid substance abuse cases, you have a very high potential risk in comparison.",
+			"You should be familiar with Naloxone resources and centers in case of an overdose",
+			"It is recommended to visit a rehabilitation center early to make sure you are safe."
 		],
 		"Prevention": [
-			"To prevent opioid substance abuse, use these resources and take these steps:"
+			"To prevent opioid substance abuse, use these resources and take these steps:",
+			"- Be familiar with Naloxone centers near you to help those in need",
+			"- Manage chronic pain and mental health",
+			"- Visiting a local rehabilitation center or local Naloxone center",
+			"- Calling a Substance Abuse Prevention Regional Coalition Agency",
+			"- Call the SAMHSA National Helpline: 1-800-662-4357"
 		],
 		"Resources": [
-			"Links here"
+			{"name": "NJ Substance Abuse Prevention Regional Coalition Agency", "link": "https://www.nj.gov/humanservices/dmhas/resources/services/prevention/Regional_Coalition_Contacts.pdf"},
+			{"name": "Substance Abuse/Addiction Treatment in NJ", "link": "https://northjerseyrecovery.com/ppc/drug-addiction-treatment"},
+			{"name": "Harm Reduction Resources Near You", "link": "https://harmreduction.org/resource-center/harm-reduction-near-you/"},
+			{"name": "SAMHSA National Opioid Abuse Helpline", "link": "https://www.samhsa.gov/find-help/national-helpline"}
 		]
 	}
 ]

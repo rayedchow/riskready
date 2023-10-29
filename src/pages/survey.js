@@ -12,6 +12,7 @@ export default function Survey() {
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(null);
 
+  console.log(scorecards);
   const handleChange = (questionID, selectedOption) => {
     const tempSelected = {...selectedData};
     tempSelected[questions[questionID]['id']] = [selectedOption.value];
@@ -74,7 +75,7 @@ export default function Survey() {
               <>
                 <div className="self-start m-10 flex flex-col">
                   <div className="flex items-center">
-                    <div className={`px-7 py-4 w-32 h-32 rounded-[50%] border-[12px] border-[${scorecards[score-1]['color']}] flex justify-center items-center`}>
+                    <div className={`px-7 py-4 w-32 h-32 rounded-[50%] border-[12px] score-${score} flex justify-center items-center`}>
                       <div className="text-[#0C4A6E] text-7xl text-semibold">{score}</div>
                     </div>
                     <div className="ml-6 text-[#0C4A6E] text-4xl text-semibold">{scorecards[score-1]['title']}</div>
