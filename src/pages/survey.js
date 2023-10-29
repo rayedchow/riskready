@@ -5,6 +5,7 @@ import scorecards from '../data/scorecards.json';
 import Select from 'react-select';
 import axios from 'axios';
 import { ThreeBody } from '@uiball/loaders';
+import Link from 'next/link';
 
 export default function Survey() {
   const [selectedData, setSelectedData] = useState({});
@@ -25,7 +26,7 @@ export default function Survey() {
     if(Object.keys(selectedData).length < 14) return;
     console.log(selectedData);
     setSubmitted(true);
-    axios.post('http://vamp.pythonanywhere.com/', selectedData)
+    axios.post('https://vamp.pythonanywhere.com/', selectedData)
       .then(res => {
         console.log(res.data);
         setTimeout(() => setScore(res.data.predictedRisk), 3000);
@@ -94,7 +95,7 @@ export default function Survey() {
                     <div className="mt-8 text-2xl text-[#0C4A6E] font-semibold">Resources specific for your risks</div>
                     <div className="text-xl text-[#000000] font-light">
                       {scorecards[score-1]['Resources'].map((line) => (
-                        <>{line}<br/></>
+                        <><a target='_blank' rel='noopener noreferrer' href={line['link']} className='text-[#0984e3]'>{line['name']}</a><br/></>
                       ))}
                     </div>
                   </div>

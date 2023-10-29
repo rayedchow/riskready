@@ -3,13 +3,21 @@
 		"title": "Low Risk",
 		"color": "#CA8A04",
 		"Meaning": [
-			"You are at a low risk of experiencing opioid substance abuse."
+			"You are at a low risk of experiencing opioid substance abuse.",
+			"Based on hundreds of reports of various opioid substance abuse cases, you have a low potential risk in comparison.",
+			"You should prepare to prevent opioid abuse by limiting your use and using helpful resources"
 		],
 		"Prevention": [
-			"To prevent opioid substance abuse, use these resources and take these steps:"
+			"To prevent opioid substance abuse, use these resources and take these steps:",
+			"- Consistently take Fentanyl Test Strips to make sure the substance consumption is not at overdose",
+			"- Read Opioid Overdose Training and Witness Steps",
+			"- Be familiar with Naloxone centers near you to help those in need"
 		],
 		"Resources": [
-			"Links here"
+			{"name": "Opioid Abuse Harm Reduction - SAFEProject", "link": "https://www.safeproject.us/resource/the-truth-about-harm-reduction/"},
+			{"name": "Opioid Overdose Witness Training - SAFEProject", "link": "https://www.safeproject.us/article/what-to-do-if-you-witness-an-overdose/"},
+			{"name": "Harm Reduction Resources Near You", "link": "https://harmreduction.org/resource-center/harm-reduction-near-you/"},
+			{"name": "Fentanyl Test Strips Resource", "link": "https://www.healthaffairs.org/content/forefront/fentanyl-test-strips-empower-people-and-save-lives-so-why-aren-t-they-more-widespread"}
 		]
 	},
 	{
