@@ -44,7 +44,7 @@ export default function Survey() {
         <div className="text-lg text-[#000000] text-center font-light w-[60%] mt-3">
           We will use a sophisticated AI Algorithm to predict the risk of Opioid and Substance Abuse using data inputted using this survey!<br/>Please answer the questions as accurately as possible.<br/>If you are not comfortable answering a question, use the “Rather not say” option if possible.
         </div>
-        <div className="w-3/5 min-h-[10rem] flex flex-col justify-around items-center bg-[#D2DCE7] drop-shadow-2xl rounded-xl mt-8 mb-8">
+        <div className="w-3/5 min-h-[10rem] flex flex-col justify-around items-center bg-[#D2DCE7] drop-shadow-2xl rounded-xl mt-8 mb-36">
           
           {!submitted ? <>
             {questions.map((question, i) => (
@@ -64,7 +64,7 @@ export default function Survey() {
                 }
               </div>
             ))}
-            <div className='mt-5 mb-10 p-3 bg-[#0C4A6E] text-[#CA8A04] text-xl font-semibold drop-shadow-xl rounded-xl hover:cursor-pointer' onClick={onSubmit}>
+            <div className='mt-5 mb-16 p-3 bg-[#0C4A6E] text-[#CA8A04] text-xl font-semibold drop-shadow-xl rounded-xl hover:cursor-pointer' onClick={onSubmit}>
               SUBMIT
             </div></>
             :
