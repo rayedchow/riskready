@@ -43,3 +43,9 @@ div#__next > div {
   font-family: 'Space Mono', monospace !important;
   background-color: rgba(189, 195, 199, 0.8);
 }
+
+.lightbg {
+  background-color: rgba(189, 195, 199, 0.8);
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+}
