@@ -45,7 +45,7 @@ div#__next > div {
 }
 
 .lightbg {
-  background-color: rgba(189, 195, 199, 0.8);
+  background-color: rgb(189, 195, 199);
   padding: 1.25rem;
   border-radius: 0.75rem;
 }
