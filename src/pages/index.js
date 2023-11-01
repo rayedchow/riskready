@@ -7,7 +7,7 @@ export default function Home() {
       <Navbar page={0} />
       <div className="w-full h-full flex flex-col items-center">
         <div className='w-full h-[50rem] min-h-[75%] bg-[url("/landingbg.jpeg")] bg-no-repeat bg-cover bg-center grow flex flex-col items-center'>
-          <div className='text-5xl p-5 text-center mt-[10%] max-w-fit max-h-fit text-clip text-[#2c3e50] landingtitle'>USING AI TO PREVENT OUR WORST ADDICTION</div>
+          <div className='text-5xl p-5 text-center mt-[10%] max-w-fit max-h-fit text-clip text-[#2c3e50] landingtitle'>USING AI TO PREVENT DRUG OVERDOSE</div>
           <Link href='/survey' className="text-3xl p-5 rounded-xl bg-[#2c3e50] text-[#CA8A04] font-semibold mt-5 cursor-pointer">TAKE OUR SURVEY</Link>
         </div>
         <div className='flex flex-col items-center bg-[url("/aboutus.jpeg")] bg-cover bg-center bg-no-repeat'>
