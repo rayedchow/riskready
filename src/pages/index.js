@@ -28,7 +28,17 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 text-5xl text-[#2c3e50] font-semibold">
-          OUR MOTIVES
+          HOW RISKREADY WORKS
+        </div>
+        <div className="mt-8 text-2xl justify-self-center max-w-[60%] text-center text-[#2c3e50]">RiskReady uses a dataset of hundreds of past Opioid Abuse Reports to train an AI machine learning model to predict risks of opioid and substance abuse given data and survey information. From a dataset of hundreds of Opioid Abuse Reports, we compare survey results and predict an accurate opioid abuse risk out of 4 (1 - Very Low Risk, 4 - Very High Risk), and provide extensive resources and links to areas of risk. Many of these resources that are suggested are from Official NJ organizations, and also websites that list out treatments and rehabilitation help centers nearby the area specific to the user.</div>
+        <div className="mt-16 text-5xl text-[#2c3e50] font-semibold">
+          OUR GOALS
+        </div>
+        <div className='mt-4 max-w-[60%] flex flex-col justify-center items-center'>
+          <div className='text-5xl text-[#CA8A04] font-semibold self-start'>❝</div>
+            <div className='text-3xl text-[#2c3e50] text-center'>At RiskReady, we intend to address the ongoing opioid epidemic that is present not just around the North New Jersey area, but throughout the nation. Through the incorporation of up and coming AI technology along with machine learning, we have put into place a tool that can be utilized by those affected, and provide them with numerous resources to overcome addiction and prevent possible overdose.
+            </div>
+            <div className='text-5xl text-[#CA8A04] font-semibold self-end mb-16'>❞</div>
         </div>
       </div>
     </div>
